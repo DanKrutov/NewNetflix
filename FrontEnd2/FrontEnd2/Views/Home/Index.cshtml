@@ -1,20 +1,41 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@{
+  Layout = "~/Views/Shared/_Layout2.cshtml";
+}
 <style>
     #caixa{
-        left:30px;
+        left:20px;
         top: 350px;
         z-index:40;
         position:absolute;
         animation-name: anim1;
-        animation-duration: 4s;
+        animation-duration: 3s;
+    }
+
+    #caixa2{
+        width: 500px;
+        height: 91.8%;
+        left:0px;
+        top: 65px;
+        z-index:35;
+        position:absolute;
+        animation-name: anim2;
+        animation-duration: 2s;
+        opacity:0.7;
+        background-color: black;
     }
 
     @@keyframes anim1 {
-	100%   { left:30px; top:350px; opacity:1;}
-	0%  { left:500px; top:350px; opacity:0;}
+	100%   { left:20px; top:350px; opacity:1;}
+	0%  { left:400px; top:350px; opacity:0;}
 	}
+    @@keyframes anim2 {
+	100%   {background-color: black; opacity:0.7;}
+	0%  {background-color: black; opacity:0.4;}
+	}
+
 </style>
 <!--<div class="text-center">
     <h1 class="display-4">Welcome</h1>
@@ -28,13 +49,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+<!--
 <div style="z-index: 30; left:0px; top:69px; position: absolute">
     <img src="https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg " width=1600px height=718px/>
-</div>
+</div>-->
 
 <div id="caixa">
-	<h1><b>Bem vindo ao New Netflix</b></h1>
+	<h2><b>Bem vindo ao New Netflix</b></h2>
     <a asp-controller="Movies" asp-action="Index" class="nav-link text-light"><h5>Acessar Filmes</h5></a>
 </div>
+<div id="caixa2"></div>
 </body>
 

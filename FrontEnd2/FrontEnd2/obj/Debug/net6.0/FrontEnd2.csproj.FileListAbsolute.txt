@@ -790,3 +790,4 @@ C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\obj\Debug\net6.0\FrontEnd2
 C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\obj\Debug\net6.0\ref\FrontEnd2.dll
 C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\obj\Debug\net6.0\FrontEnd2.pdb
 C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\obj\Debug\net6.0\FrontEnd2.genruntimeconfig.cache
+C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout2.cshtml.rz.scp.css
