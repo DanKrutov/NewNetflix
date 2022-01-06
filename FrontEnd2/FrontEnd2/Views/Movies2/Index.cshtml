@@ -10,7 +10,7 @@
 <p>
     <a class="btn btn-primary" asp-action="Create">Adicionar Filme</a>
 </p>
-<table class="table" style="color:white">
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -58,9 +58,9 @@
             </td>
 
             <td>
-                <!--<a asp-action="Edit" class="btn btn-secondary btn-sm" asp-route-id="@item.MvId">Editar</a>-->
+                <div class="col-xs-12"><a asp-action="Edit" class="btn btn-secondary btn-sm" asp-route-id="@item.MvId">Editar</a></div>
                 <a asp-action="Details" class="btn btn-secondary btn-sm col-xs-2" asp-route-id="@item.MvId">Detalhes</a> 
-                <!--<a asp-action="Delete" class="btn btn-secondary btn-sm col-xs-2" asp-route-id="@item.MvId">Deletar</a>-->
+                <a asp-action="Delete" class="btn btn-secondary btn-sm col-xs-2" asp-route-id="@item.MvId">Deletar</a>
             </td>
         </tr>
 }
