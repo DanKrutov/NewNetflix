@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj": {}
+    "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj": {
+    "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
+        "projectUniqueName": "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
         "projectName": "FrontEnd2",
-        "projectPath": "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
+        "projectPath": "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
         "packagesPath": "C:\\Users\\danib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\obj\\",
+        "outputPath": "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danib\\AppData\\Roaming\\NuGet\\NuGet.Config",

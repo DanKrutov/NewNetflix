@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEbuTgHucxu15f22tz9EKy5oC/gp2cjcnO5i2F9KcwpxeonwROT/D2xDBx5N/yX/QzwmZ4DTqzkri620pHgCig==",
+  "dgSpecHash": "08mK4jrw2U/jE0Tu6lVkyi6UMKhTqtLlPZuGq25T81JPh58TireSjT8bsDESrDWjKeTiiEounRvQ9pTeHkYVXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danib\\Desktop\\crud-filmes-c-\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
+  "projectFilePath": "C:\\Users\\danib\\Desktop\\NewNetflix\\FrontEnd2\\FrontEnd2\\FrontEnd2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danib\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\danib\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

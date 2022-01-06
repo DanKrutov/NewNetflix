@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FrontEnd2
 build_property.RootNamespace = FrontEnd2
-build_property.ProjectDir = C:\Users\danib\Desktop\crud-filmes-c-\FrontEnd2\FrontEnd2\
+build_property.ProjectDir = C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\danib\Desktop\crud-filmes-c-\FrontEnd2\FrontEnd2
+build_property.MSBuildProjectDirectory = C:\Users\danib\Desktop\NewNetflix\FrontEnd2\FrontEnd2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Home/Index.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Home/Privacy.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies2/Create.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies2/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzMlxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies2/Delete.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies2/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzMlxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies2/Details.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies2/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzMlxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies2/Edit.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies2/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzMlxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies2/Index.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzMlxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies/Create.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies/Delete.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies/Details.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies/Edit.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Movies/Index.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Shared/Error.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/_ViewImports.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/_ViewStart.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danib/Desktop/crud-filmes-c-/FrontEnd2/FrontEnd2/Views/Shared/_Layout.cshtml]
+[C:/Users/danib/Desktop/NewNetflix/FrontEnd2/FrontEnd2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-85ltcvj6i3
