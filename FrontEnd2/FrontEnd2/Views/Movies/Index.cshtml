@@ -1,68 +1,58 @@
 ﻿@model IEnumerable<Movie>
 
-
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Lista de Filmes</h1>
+<style>
+    .cardbox{
+        background-color: black;
+        width: 200px;
+        margin: 10px;
+        position: relative;
+        float: left;
+        border-radius: 10px;
+        transition: transform .2s;
+    }
+    .textbox{
+        height: 60px;
+        
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        /*background-color: #2196F3;*/
+        padding: 10px;
+    }
+    .grid-item {
+        /*background-color: rgba(255, 255, 255, 0.8);*/
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        text-align: center;
+    }
+    .cardbox:hover{
+         transform: scale(1.2);
+    }
+</style>
+
+<h1>Tabela de Filmes</h1>
 
 <p>
     <a class="btn btn-primary" asp-action="Create">Adicionar Filme</a>
 </p>
-<table class="table" style="color:white">
-    <thead>
-        <tr>
-            <th>
-                Imagem
-            </th>
-            <th>
-                Título
-            </th>
-            <th>
-                Data
-            </th>
-            <th>
-                Duração
-            </th>
-            <th>
-                Sinopse
-            </th>
-            <th>
-                Gênero
-            </th>
-            <th></th>
-        </tr>
-    </thead>
+        <div class="grid-container">
+              
+            @foreach (var item in Model) {
+            <div class="grid-item">
+                <a asp-action="Details" class="" asp-route-id="@item.MvId">
+                <div class="cardbox">
+                    <div class="bg-image hover-zoom"><img class="bg-image hover-zoom" style="border-radius: 10px 10px 0px 0px;" src=@Html.DisplayFor(modelItem => item.MvImg) width=200 height=275/></div>
+                    <div class=" text-light textbox">
+                        @Html.DisplayFor(modelItem => item.MvTitle)
+                    </div>
+                </div>
+                </a>
+            </div>
+            }
+        </div>
 
-    <tbody>
-        @foreach (var item in Model) {
-        <tr>
-            <td>
-                <img src=@Html.DisplayFor(modelItem => item.MvImg) width=62 height=87/>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MvTitle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MvDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MvDuration)min
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MvSynopsis)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gr.Genre1)
-            </td>
-
-            <td>
-                <!--<a asp-action="Edit" class="btn btn-secondary btn-sm" asp-route-id="@item.MvId">Editar</a>-->
-                <a asp-action="Details" class="btn btn-secondary btn-sm col-xs-2" asp-route-id="@item.MvId">Detalhes</a> 
-                <!--<a asp-action="Delete" class="btn btn-secondary btn-sm col-xs-2" asp-route-id="@item.MvId">Deletar</a>-->
-            </td>
-        </tr>
-}
-    </tbody>
-</table>

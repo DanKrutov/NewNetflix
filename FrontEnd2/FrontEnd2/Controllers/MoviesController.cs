@@ -26,6 +26,11 @@ namespace FrontEnd.Controllers
             var newNetflixContext = _context.Movies.Include(m => m.Gr);
             return View(await newNetflixContext.ToListAsync());
         }
+        public async Task<IActionResult> Index2()
+        {
+            var newNetflixContext = _context.Movies.Include(m => m.Gr);
+            return View(await newNetflixContext.ToListAsync());
+        }
 
         // GET: Movies1/Details/5
         public async Task<IActionResult> Details(int? id)

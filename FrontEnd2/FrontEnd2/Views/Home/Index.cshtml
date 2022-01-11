@@ -6,36 +6,42 @@
 }
 <style>
     #caixa{
+        width:475px;
         left:20px;
         top: 350px;
         z-index:40;
         position:absolute;
         animation-name: anim1;
-        animation-duration: 3s;
+        animation-duration: 2s;
     }
 
     #caixa2{
         width: 500px;
-        height: 91.8%;
+        height: 95%;
         left:0px;
-        top: 65px;
+        top: 60px;
         z-index:35;
         position:absolute;
         animation-name: anim2;
-        animation-duration: 2s;
+        animation-duration: 2.5s;
         opacity:0.7;
         background-color: black;
+        flex-direction: column;
+        align-items: stretch; /* default value */
     }
 
     @@keyframes anim1 {
 	100%   { left:20px; top:350px; opacity:1;}
-	0%  { left:400px; top:350px; opacity:0;}
+	0%  { left:200px; top:350px; opacity:0;}
 	}
     @@keyframes anim2 {
 	100%   {background-color: black; opacity:0.7;}
 	0%  {background-color: black; opacity:0.4;}
 	}
 
+    *{
+        overflow: hidden;
+    }
 </style>
 <!--<div class="text-center">
     <h1 class="display-4">Welcome</h1>
@@ -55,8 +61,11 @@
 </div>-->
 
 <div id="caixa">
-	<h2><b>Bem vindo ao New Netflix</b></h2>
-    <a asp-controller="Movies" asp-action="Index" class="nav-link text-light"><h5>Acessar Filmes</h5></a>
+	<h2><b>Assista a seus filmes de forma prática. </b></h2>
+    <!--<a asp-controller="Movies" asp-action="Index" class="nav-link text-light"><h5>Acessar Filmes</h5></a>-->
+    <button style="background-color:#E50914; color:white" type="button" class="btn">CADASTRAR-SE</button>
+    <button type="button" class="btn btn-light">Entrar</button>
+    <a asp-controller="Movies" asp-action="Index" class="btn btn-dark">Acessar Filmes</a>
 </div>
 <div id="caixa2"></div>
 </body>
