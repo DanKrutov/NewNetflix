@@ -3,6 +3,14 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<style>
+    textarea{
+        resize: none;
+        width: 100%;
+        height: 250px;
+        float: right;
+    }
+</style>
 
 <h1>Editar</h1>
 
@@ -35,7 +43,8 @@
             </div>
             <div class="form-group" height="auto">
                 <label asp-for="MvSynopsis" class="control-label">Sinopse</label>
-                <input asp-for="MvSynopsis" class="form-control" />
+                <!--<input asp-for="MvSynopsis" class="inputfield form-control" />-->
+                <textarea class="rounded" asp-for="MvSynopsis"></textarea>
                 <span asp-validation-for="MvSynopsis" class="text-danger"></span>
             </div>
             <div class="form-group">
